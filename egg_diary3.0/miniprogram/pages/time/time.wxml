@@ -1,0 +1,17 @@
+<!--pages/time/time.wxml-->
+<image class="abg" src="../image/all-bg.png"/>
+<view class="content">
+  <image class="bg" src="../image/record-2-bg.png"/>
+  <form bindsubmit="formSubmit">
+    <input class="biao"  placeholder-class="tcolor" placeholder="标 题" bindinput="oninputTitle" maxlength="9" value="{{title}}"/>
+    <textarea class="b1"   placeholder-class="bcolor" bindinput="inputFirst" placeholder="重要但不着急" value="{{first}}"/>
+    <textarea class="b2"  placeholder-class="bcolor" bindinput="inputSecond" placeholder="重要且着急" value="{{second}}"/>
+    <textarea class="b3"  placeholder-class="bcolor" bindinput="inputThird" placeholder="不重要且不着急" value="{{third}}"/>
+    <textarea class="b4"   placeholder-class="bcolor" bindinput="inputFourth" placeholder="不重要但着急" value="{{fourth}}"/>
+  </form>
+  <!-- <view class="anniu">
+    <image src="../image/record-log-tran.png"/>
+    <image src="../image/record-logo-down.png"/>
+  </view> -->
+</view>
+<image class="tijiao" bindtap="onTimePublish" src="../image/record-jiao.png"/>

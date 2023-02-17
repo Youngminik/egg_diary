@@ -1,0 +1,23 @@
+<image class="abg" src="../image/all-bg.png"/>
+<view class="content">
+  <!-- 背景 -->
+  <image class="bg" src="../image/record-1-bg.png"/>
+  <!-- 记事内容 -->
+  <form bindsubmit="formSubmit">
+    <view class="txt">
+     <view class="bi">
+        <input class="biao"  placeholder-class="btcolor" bindinput="inputTitle" type="text" placeholder="标题" maxlength="9" value="{{title}}"/>
+      </view>
+        <!-- <image class="line" src="../image/my-line.png"/> -->
+      <view class="txt-con">
+       <textarea maxlength="500" class="txt-c" placeholder-class="nrcolor" bindinput="inputContext" placeholder="请输入记事内容" value="{{context}}"/>
+      </view>
+      <view class="yz">
+        <image src="../image/yz/yz-3.png"/>
+      </view>
+    </view>
+  </form>
+
+</view>
+<image class="tijiao" bindtap="publish" src="../image/record-jiao.png"/>
+ 

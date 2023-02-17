@@ -1,0 +1,38 @@
+<!--pages/myrecord/myrecord.wxml-->
+<!--<image class="abg" src="../image/all-bg.png"/>-->
+
+<view class="content">
+    <image class="abg" src="../image/all-bg.png"/>
+    <!-- 背景 -->
+    <image class="bg" src="../image/record-1-bg.png"/>
+    <!-- 记事内容 -->
+    <form bindsubmit="formSubmit">
+        <view class="txt">
+            <view class="bi">
+            <view class="biao">{{matter.title}}</view>
+                <!-- <input class="biao" placeholder-class="btcolor" bindinput="inputTitle" type="text" placeholder="标题"
+                       value="{{matter.title}}"/> -->
+            </view>
+            <!-- g -->
+            <view class="txt-con">
+            <view class="txt-c">{{matter.context}}</view>
+                <!-- <textarea class="txt-c" placeholder-class="nrcolor" bindinput="inputContext" placeholder="请输入记事内容"
+                          value="{{matter.context}}"/> -->
+            </view>
+            <view class="yz">
+                <image src="{{matter.bgSrc}}"/>
+            </view>
+        </view>
+    </form>
+    <!-- 按钮 -->
+    <view class="anniu">
+        <image class="a1" src="../image/record-logo-gift.png" bindtap="onLucky"/>
+        
+           <image class="a2" data-id="{{matter._id}}" bindtap="onDelete" src="../image/record-log-tran.png"/> 
+        
+        <image class="a3" src="../image/record-logo-down.png" bindtap="makepicture"/>
+        
+    </view>
+    <canvas canvas-id="canvas" type="2d" id="canvas" class="canvas" hidden="{{canvasHidden}}"></canvas>
+</view>
+<!-- <button data-id="{{matter._id}}" bindtap="onDelete">删除</button> -->

@@ -1,0 +1,31 @@
+<image class="abg" src="../image/all-bg.png"/>
+<view class="top">
+  <swiper class="carshow" indicator-color="#bcb0a0" indicator-active-color="#655139" indicator-dots circular autoplay> 
+  <!-- 轮播效果图 -->
+    <swiper-item>
+      <image src="../image/home-top1.png"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../image/home-top2.png"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../image/home-top3.png"/>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 时间 -->
+<view class="time" bindtap="geTime">
+ {{Time}}
+</view>
+<view class="book" bindtap="getUserProfile" >
+  <!--获取头像-->
+  <view class="touxiang" wx:if="{{!UserLogin}}"  >
+    <image  src="../image/my-my.png"  />
+    <text class="dj">点击登录</text>
+  </view>
+    <view wx:else>
+      <image class="touxiang" src="{{userInfo.avatarUrl}}" />
+     </view>
+    <!-- 记事本背景 -->
+    <image class="bg" src="../image/home-book.png"/>
+</view>

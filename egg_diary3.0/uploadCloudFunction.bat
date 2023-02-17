@@ -1,0 +1,1 @@
+"D:\developer\weixinxiaochengxu\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-0gkgr81864edd624 --n quickstartFunctions --r --project "F:\wxprogress_qimo\egg_diary" --report_first --report

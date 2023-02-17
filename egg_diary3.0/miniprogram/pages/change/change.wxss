@@ -1,0 +1,40 @@
+/* pages/change/change.wxss */
+.abg{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .content text{
+    position: absolute;
+    top: 3.6%;
+    left: 48%;
+    transform: translateX(-50%);
+    width: 80vw;
+    color: #958975;
+  }
+  .jj{
+    position: absolute;
+    width: 77vw;
+    left: 8vw;
+    top: 9vh;
+    font-size: 40rpx;
+  }
+  .JJcolor{
+    color: #b0a17c;
+  }
+  .line{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 86vw;
+    height: 6rpx;
+  }
+  .jiao{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 86vw;
+    height: 6vh;
+  }

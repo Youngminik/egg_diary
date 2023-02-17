@@ -1,0 +1,21 @@
+<view><image class="abg" src="../image/all-bg.png"/></view>
+<!-- 提示 -->
+<view class="biaoti">
+  <text>抽  奖</text>
+</view>
+<!-- 点我翻牌 -->
+<view class="LUCKY-BOX">
+    <block wx:for="{{9}}">
+        <view class="LBOX {{Position[index].PC}} {{Position[index].FZ}}" style="background-image: {{BGColor[index].color}}; top: {{Position[index].top}}; left: {{Position[index].left}}" bindtap="CLICKCARD" data-id="{{index}}">
+            <text class="LBOX-TEXT" wx:if="{{Position[index].TIF}}">点我翻牌</text>
+            <image src="{{NowPresent[index].src}}" class="LBOX-IMA" wx:if="{{NowPresent[index].IF}}"></image>
+        </view>
+    </block>
+
+</view>
+
+<!-- 中间抽奖 -->
+<view class="Restart" bindtap="ReStartCard" style="background: {{RSB1}};">
+    <text style="color: {{RST1}};">重 新 发 牌</text>
+</view>
+

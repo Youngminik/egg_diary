@@ -1,0 +1,109 @@
+/* pages/time/time.wxss */
+.abg{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.biao{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10rpx;
+  text-align: center;
+  width: 60vw;                           
+  font-size: 42rpx;
+}
+
+.tcolor{
+  color: rgb(161, 119, 63);
+}
+.bg{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70rpx;
+  width: 80vw;
+  height: 50vh;
+}
+/* 表单 */
+.b1{
+  position: absolute;
+  left: 17%;
+  top: 15%;
+  background-color: #f8f0d04d;
+  width: 240rpx;
+  height: 95rpx;
+  text-align: center;
+}
+.b2{
+  position: absolute;
+  right: 17%;
+  top: 15%;
+  background-color: #f8f0d04d;
+  width: 240rpx;
+  height: 95rpx;
+  text-align: center;
+}
+.b3{
+  position: absolute;
+  left: 17%;
+  top: 38%;
+  background-color: #f8f0d04d;
+  width: 240rpx;
+  height: 95rpx;
+  text-align: center;
+}
+.b4{
+  position: absolute;
+  right: 17%;
+  top: 38%;
+  background-color: #f8f0d04d;
+  width: 240rpx;
+  height: 95rpx;
+  text-align: center;
+}
+/* 按钮 */
+.anniu{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 58%;
+  width: 80vw;
+  height: 30vh;
+}
+.anniu image{
+  height: 100rpx;
+  width: 100rpx;
+  margin-left: 10vw;
+}
+.a1{
+    position: absolute;
+    margin: 30rpx;
+    height: 100rpx;
+    width: 100rpx;
+    left: 8%;
+  }
+ 
+.a3{
+      position: absolute;
+      margin: 30rpx;
+      height: 100rpx;
+      width: 100rpx;
+      left: 50%;
+    }
+.tijiao{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 23%;
+  width: 86vw;
+  height: 7vh;
+}
+.canvas{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    width: 70vw;
+    height: 50vh;
+   }

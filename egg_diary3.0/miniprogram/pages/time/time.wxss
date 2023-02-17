@@ -1,0 +1,90 @@
+/* pages/time/time.wxss */
+.abg{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .biao{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 13rpx;
+    text-align: center;
+    width: 50vw;
+    font-size: 42rpx;
+  }
+  
+  .tcolor{
+    color: rgb(161, 119, 63);
+  }
+  .bg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70rpx;
+    width: 80vw;
+    height: 50vh;
+  }
+  /* 表单 */
+  .b1{
+    position: absolute;
+    left: 17%;
+    top: 18%;
+    background-color: #f8f0d04d;
+    width: 240rpx;
+    height: 95rpx;
+    text-align: center;
+    word-wrap:break-word;
+  }
+  .b2{
+    position: absolute;
+    right: 17%;
+    top: 18%;
+    background-color: #f8f0d04d;
+    width: 240rpx;
+    height: 95rpx;
+    text-align: center;
+    word-wrap:break-word;
+  }
+  .b3{
+    position: absolute;
+    left: 17%;
+    top: 38%;
+    background-color: #f8f0d04d;
+    width: 240rpx;
+    height: 95rpx;
+    text-align: center;
+    word-wrap:break-word;
+  }
+  .b4{
+    position: absolute;
+    right: 17%;
+    top: 38%;
+    background-color: #f8f0d04d;
+    width: 240rpx;
+    height: 95rpx;
+    text-align: center;
+    word-wrap:break-word;
+  }
+  /* 按钮 */
+  .anniu{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 58%;
+    width: 100vw;
+    height: 30vh;
+  }
+  .anniu image{
+    height: 100rpx;
+    width: 100rpx;
+    margin-left: 26vw;
+  }
+  .tijiao{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 23%;
+    width: 86vw;
+    height: 7vh;
+  }

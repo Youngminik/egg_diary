@@ -1,0 +1,58 @@
+<image class="abg" src="../image/my-bg.png"/>
+<view class="content">
+    <!-- 未登录 -->
+    <view class="card" wx:if="{{!UserLogin}}">
+        <image class="bg" src="../image/my-top.png"/>
+        <!-- <button style="background-image:{{userInfo.avatarUrl ? 'url(userInfo.avatarUrl)' : 'url(../image/my-my.png)'
+        }}"></button> -->
+        <image class="touxiang" bindtap="getUserProfile" src="../image/my-my.png"/>
+        <view class="chang" bindtap="change">
+            <image class="bian" src="../image/my-compile.png"/>
+        </view>
+        <form bindsubmit="forSubmit">
+            <view class="biaodan">
+                <view class="nicheng" placeholder-class="NCcolor" >登录后显示</view>
+                <view class="jj" >用一句话简单介绍自己</view>
+            </view>
+        </form>
+    </view>
+    <!-- 已登录 -->
+    <view wx:else class="card">
+        <image class="bg" src="../image/my-top.png"/>
+        <image class="touxiang" src="{{userInfo.avatarUrl}}"/>
+        <view class="chang" bindtap="change">
+            <image class="bian" src="../image/my-compile.png"/>
+        </view>
+        <form bindsubmit="forSubmit">
+            <view class="biaodan">
+                <view class="nicheng" placeholder-class="NCcolor" >{{userInfo.nickName}}</view>
+                <view class="jj">{{ownIntro}}</view>
+            </view>
+        </form>
+    </view>
+    <view class="work">
+        <image class="Wlogo" src="../image/my-logo-word.png"/>
+        <image class="Rlogo" src="../image/my-logo-record.png"/>
+        <view class="Wcon">
+            <scroll-view class="pro_list" scroll-y style="height: 350rpx;">
+            <!--记事-->
+            <view class="txt" wx:for="{{matter}}" wx:for-item="mat" bindtap="toRecordDetail" data-id="{{mat._id}}">{{mat.title}}
+            </view>
+            </scroll-view>
+        </view>
+        <view class="Rcon">
+            <scroll-view class="pro_list" scroll-y style="height: 350rpx;">
+            <!--时间管理-->
+            <view class="txt" wx:for="{{timeManag}}" wx:for-item="time" bindtap="toTimeDetail" data-id="{{time._id}}">
+                {{time.title}}
+            </view>
+            </scroll-view>
+        </view>
+    </view>
+</view>
+<view bindtap="exit">
+    <image class="out" src="../image/my-anniu.png"/>
+    
+</view>
+
+

@@ -1,0 +1,10 @@
+<!-- 解决底部导航栏遮挡页面内容，自己加一个view -->
+<view class="standView"></view>
+<view class="tabbar">
+  <view class="item" wx:for="{{tabBar}}" wx:for-index="idx" bindtap="goto" data-index='{{idx}}' 
+  data-path="{{item.pagePath}}">
+    <view class="move {{index==idx?'animation-target':''}}">
+        <cover-image src="{{index === idx ? item.selectedIconPath : item.iconPath}}"></cover-image>
+    </view>
+</view>
+</view>

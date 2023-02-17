@@ -1,0 +1,98 @@
+/* pages/index/index.wxss */
+.abg{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .top{
+    position: absolute;
+    top: 30rpx;
+    width: 100vw;
+    height: 30vh;
+  }
+  .carshow{
+    position:absolute;
+    width: 100vw;
+    height: 24vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .carshow image{
+    position: absolute;
+    width: 80vw;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .time{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .book{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:32%;
+    width: 83vw;
+  }
+  .bg{
+    position: fixed;
+    width: 80vw;
+    height: 53vh;
+  }
+
+  .touxiang{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 228rpx;
+      height: 228rpx;
+      margin-top: 5.6vh;
+      border-radius: 50%;
+  }
+  .touxiang image{
+    position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    width: 228rpx;
+    height: 228rpx;
+    z-index: 1;
+    
+  }
+  .dj{
+    width: 400rpx;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    top: 18.6vh; 
+    color: #918f8f;
+  }
+  /* .book text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 18.6vh; 
+    color: #918f8f;
+  } */
+  .container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3.9vh;
+    width: 30vw;
+    height: 20vh;
+    z-index: 1;
+  }
+  
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 228rpx;
+    height: 228rpx;
+    margin: 10rpx;
+    border-radius: 50%;
+    
+  }

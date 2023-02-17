@@ -1,0 +1,10 @@
+<!--pages/change/change.wxml--> 
+<image class="abg" src="../image/my-bg.png"/>
+<view class="content">
+  <text>用一句话简单介绍自己（30字以内）</text>
+  <form bindsubmit="forSubmit">
+    <input class="jj" bindinput="inputIntro" placeholder-class="JJcolor" placeholder="用一句话简单介绍自己" value="{{ownIntro}}"/>
+  </form>
+  <image class="line" src="../image/my-line.png"/>
+  <image class="jiao" bindtap="publishOwnIntro" src="../image/record-jiao.png"/>
+</view>

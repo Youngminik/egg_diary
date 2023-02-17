@@ -1,0 +1,119 @@
+.abg{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  .content{
+    position: absolute;
+    height: 95vh;
+    width: 93vw;
+    margin: 2rpx;
+    left: 50%;
+    top: 20rpx;
+    transform: translateX(-50%);
+  }
+  .bg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20rpx;
+    width: 85vw;
+    height: 20vh;
+  }
+  /* 表单 */
+  
+  .nicheng{
+    position: absolute;
+    width: 30vw;
+    left: 43vw;
+    top: 6.5vh;
+    font-size: 2.5vh;
+  }
+  .jj{
+    position: absolute;
+    width: 44vw;
+    left: 32.5vw;
+    top: 10.8vh;
+    font-size: 26rpx;
+    color: #ada89d;
+  }
+  .NCcolor{
+    color: #7c6b57;
+  }
+  .JJcolor{
+    color: #d8cebb;
+  }
+  /* 头像 */
+  .touxiang{
+    position: absolute;
+    top: 6%;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 156rpx;
+    height: 160rpx;
+    border-radius: 50%;
+  }
+  .chang{
+    width: 40rpx;
+    height: 40rpx;
+  }
+  .bian{
+    position: absolute;
+    top: 14.6%;
+    left: 88%;
+    transform: translateX(-50%);
+    width: 34rpx;
+    height: 34rpx;
+  }
+  .Wlogo{
+    position: absolute;
+    top: 26%;
+    left: 28%;
+    transform: translateX(-50%);
+    width: 23vw;
+    height: 6vh;
+  }
+  .Rlogo{
+    position: absolute;
+    top: 26%;
+    right: 8%;
+    width: 34vw;
+    height: 6vh;
+  }
+  .Wcon{
+    position: absolute;
+    left: 5%;
+    top: 34%;
+    background-color: #c4ac8f38;
+    /* 颜色为了显示区域 */
+    width: 40vw;
+    height: 37vh;
+    border-radius: 9%;
+  }
+  .Rcon{
+    position: absolute;
+    right: 5%;
+    top: 34%;
+    background-color: #c4ac8f38;
+    /* 颜色为了显示区域 */
+    width: 40vw;
+    height: 37vh;
+    border-radius: 9%;
+  }
+  .txt{
+      color: #55432e;
+      padding: 6rpx;
+      margin-left: 6rpx;
+      margin-top: 4rpx;
+      border-bottom: solid 2rpx #7c6f60;
+      width: 36vw;
+  }
+  /* 退出 */
+  .out{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85vw;
+    height: 7.3vh;
+    bottom: 20vh;
+  }

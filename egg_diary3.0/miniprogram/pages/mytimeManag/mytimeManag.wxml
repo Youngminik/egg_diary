@@ -1,0 +1,24 @@
+<!--pages/mytimeManag/mytimeManag.wxml-->
+<image class="abg" src="../image/all-bg.png"/>
+<view class="content">
+    <image class="bg" src="../image/record-2-bg.png"/>
+    <form bindsubmit="formSubmit">
+        <view class="biao">{{time.title}}</view>
+        <view class="b1">{{time.first}}</view>
+        <view class="b2">{{time.second}}</view>
+        <view class="b3">{{time.third}}</view>
+        <view class="b4">{{time.fourth}}</view>
+        <!-- <input class="b1"   placeholder-class="bcolor" bindinput="inputFirst" placeholder="重要但不着急" value="{{time.first}}"/>
+        <input class="b2"  placeholder-class="bcolor" bindinput="inputSecond" placeholder="重要且着急" value="{{time.second}}"/>
+        <input class="b3"  placeholder-class="bcolor" bindinput="inputThird" placeholder="不重要且不着急" value="{{time.third}}"/>
+        <input class="b4"   placeholder-class="bcolor" bindinput="inputFourth" placeholder="不重要但着急" value="{{time.fourth}}"/> -->
+    </form>
+    <view class="anniu">
+
+<!--        <image bindtap="chou" src="../image/record-logo-gift.png"/>-->
+        <image class="a1" data-id="{{time._id}}" bindtap="onDelete" src="../image/record-log-tran.png"/>
+        <image class="a3" src="../image/record-logo-down.png" bindtap="makepicture" />
+    </view>
+    <canvas canvas-id="canvas" type="2d" id="canvas" class="canvas" hidden="{{canvasHidden}}"></canvas>
+</view>
+<!--<button data-id="{{time._id}}" bindtap="onDelete">删除</button>-->

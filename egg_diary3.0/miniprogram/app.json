@@ -1,0 +1,52 @@
+{
+    "pages": [
+      "pages/index/index",
+        "pages/my/my",
+        "pages/change/change",
+        "pages/record/record",
+        "pages/time/time",
+        "pages/chou/chou",
+        "pages/myrecord/myrecord",
+        "pages/mytimeManag/mytimeManag"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#e3d8bb",
+        "navigationBarTitleText": "蛋蛋记事",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#e3d8bb",
+        "backgroundColor": "#e3d8bb",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "pages/image/logo-low-home.png",
+                "selectedIconPath": "pages/image/logo-big-home.png",
+                "text": " "
+            },
+            {
+                "pagePath": "pages/record/record",
+                "iconPath": "pages/image/logo-low-record.png",
+                "selectedIconPath": "pages/image/logo-big-record.png",
+                "text": " "
+            },
+            {
+              "pagePath": "pages/time/time",
+              "iconPath": "pages/image/logo-low-time.png",
+              "selectedIconPath": "pages/image/logo-big-time.png",
+              "text": " "
+          },
+            {
+                "pagePath": "pages/my/my",
+                "iconPath": "pages/image/logo-low-my.png",
+                "selectedIconPath": "pages/image/logo-big-my.png",
+                "text": " "
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}
